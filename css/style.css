@@ -1,14 +1,47 @@
 body {
     font-family: Helvetica, arial, sans-serif;
 }
-
-
+/* MY-TAGS */
+.my_tags_w-5 {
+    width: 5%;
+}
+/* /MY-TAGS */
 /* header */
+
 /* /header */
 
 /* main */
+
+
 /* jumbotron */
+/* .jumbotron {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.jumbo-top {
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.jumbo-top .container-fluid {
+    height: 100%;
+}
+.jumbo-top .row {
+    height: 100%;
+}
+.jumbo-bottom {
+    background-color: brown;
+}
+.jumbo-bottom .square {
+    height: 100px;
+    background-color: chartreuse;
+} */
 /* /jumbotron */
+
+
+
+
  /* play-5 */
 /* /play-5 */
 /* new-games */
