@@ -1,42 +1,36 @@
 body {
     font-family: Helvetica, arial, sans-serif;
 }
+:root {
+    --font-color-link-nav: rgba(0, 0, 0, 1)
+}
 /* MY-TAGS */
+.my_tags_height675 {
+    height: 675px;
+}
 .my_tags_w-5 {
     width: 5%;
 }
+.my_tags_rounded-4 {
+    border-radius: 1.5rem;
+}
 /* /MY-TAGS */
 /* header */
-
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-color-link-nav);
+}
 /* /header */
-
 /* main */
-
-
 /* jumbotron */
-/* .jumbotron {
-    width: 100%;
-    height: 100vh;
-    background-color: aqua;
+.jumbotron .jumbo-top {
+    height: 675px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position-x: center;
 }
-.jumbo-top {
-    width: 100%;
-    height: 50%;
-    background-color: blueviolet;
+.jumbotron .jumbo-top h1 {
+    font-size: 4rem;
+    font-weight: bolder;
 }
-.jumbo-top .container-fluid {
-    height: 100%;
-}
-.jumbo-top .row {
-    height: 100%;
-}
-.jumbo-bottom {
-    background-color: brown;
-}
-.jumbo-bottom .square {
-    height: 100px;
-    background-color: chartreuse;
-} */
 /* /jumbotron */
 
 
