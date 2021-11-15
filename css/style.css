@@ -55,7 +55,15 @@ body {
     display: inline-block;
     color: var(--font-color-link-nav-hover);
 }
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-menu {
+    border: none;  
+}
+.dropdown-menu[data-bs-popper] {
+    top: 99%;
+    margin-top: 0;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
